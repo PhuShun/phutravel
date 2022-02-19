@@ -1,0 +1,323 @@
+/* Mobile & Tablet */
+@media only screen and (max-width: 63.9375em) {
+
+
+    .hide-on-tablet-mobile {
+        display: none;
+    }
+
+    .header-container {
+        background-color: var(--primary-color);
+        height: 0;
+
+    }
+
+    .navbar-header {
+        height: 132px;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .navbar-header__logo a {
+        display: block;
+    }
+
+    .navbar-header__menu {
+        display: block;
+    }
+
+    .navbar-header__menu-icon {
+        font-size: 3.5rem;
+        margin-top: 20px;
+    }
+
+
+    .slider__container {
+        margin-top: 132px;
+    }
+
+    .travel-item__heading {
+        font-size: 3.4rem;
+        margin-bottom: 35px;
+
+    }
+
+    .travel-item__sub-heading {
+        font-size: 2rem;
+        margin-bottom: 0px;
+
+    }
+
+    .travel-parameter__creative {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .travel-item__sliderY-heading {
+        font-size: 3rem;
+    }
+
+    .travel-item__sliderY-sub-heading {
+        font-size: 2.4rem;
+        padding: 4px 0;
+    }
+
+    .travel-item__sliderY-btn.btn {
+        font-size: 2rem;
+        padding: 20px;
+        line-height: 2px;
+    }
+
+    .ticket-search {
+        height: 986px;
+    }
+
+    .travel-search__wrap {
+        width: 100%;
+    }
+
+    .footer-input,
+    .travel-events {
+        margin-top: 30px;
+    }
+
+    .travel-notici {
+        height: 500px;
+    }
+
+    .travel-count {
+        justify-content: center;
+    }
+
+    .travel-buy-tickets-mt {
+        margin-top: 30px;
+    }
+
+
+    .form-input {
+        flex: 1;
+    }
+
+
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width:63.9375em) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .slider__content {
+        height: 300px;
+        width: 300px;
+        animation: sliderTabletL linear .5s;
+    }
+
+    .slider__content-info {
+        font-size: 3rem;
+        line-height: 4rem;
+        animation: sliderTabletL linear .5s;
+
+    }
+
+    .slider__content-sub-info {
+        height: 120px;
+        width: 120px;
+        top: 25px;
+        right: 170px;
+        font-size: 1.6rem;
+        animation: sliderTabletR linear .5s;
+
+    }
+
+    button.slider__content-btn {
+        width: 144px;
+        line-height: 3rem;
+
+    }
+
+    .content-section__heading::before {
+        right: 133px;
+    }
+
+    .travel-filter {
+        margin: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .travel-filter__info-btn {
+        position: relative;
+        right: -20px;
+    }
+
+    .travel-item__logo {
+        width: 80px;
+    }
+
+    .travel-parameter__fifty-sub-heading,
+    .travel-parameter__years-sub-heading {
+        margin: 0 124px 30px;
+    }
+
+    .travel-parameter__twenty-sub-heading {
+        margin: 0 124px;
+    }
+    .footer-input__btn {
+        width: 180px;
+    }
+    .main__footer {
+        height: 950px;
+    }
+    .footer-copy-right {
+        height: 100px;
+        flex-direction: column;
+    }
+
+
+}
+
+/* Mobile  */
+@media only screen and (max-width: 46.1875em){
+    :root {
+        --header-height: 54px;
+        --navbar-height: 0px;
+    }
+
+    .main__container {
+        padding: 0 15px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .slider__content {
+        height: 180px;
+        width: 200px;
+        animation: sliderMobileL linear .5s;
+    }
+
+    .slider__content-info {
+        width: 160px;
+        height: 120px;
+        line-height: 0;
+        animation: sliderMobileL linear .5s;
+
+    }
+
+    .slider__content-heading,
+    .slider__content-sale,
+    .slider__content-sale-off {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-weight: normal;
+    }
+
+    button.slider__content-btn {
+        width: 100px;
+        line-height: 0;
+        height: 22px;
+        font-size: 1rem;
+        margin-left: 2px;
+        font-weight: normal;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center;
+
+    }
+
+    .slider__content-btn {
+        width: 100px;
+        line-height: 0;
+        height: 26px;
+        font-size: 1rem;
+    }
+
+    .slider__content-sub-info {
+        width: 70px;
+        height: 70px;
+        right: 18%;
+        top: 18px;
+        animation: sliderMobileR linear .5s;
+    }
+
+    .footer-input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider__content-sub-heding {
+        font-size: 1rem;
+        margin-bottom: 2px;
+    }
+
+    .slider__content-sub-text {
+        font-size: 1rem;
+    }
+
+    .slider__controls {
+        position: relative;
+        text-align: center;
+        top: -20px;
+        right: -170px;
+    }
+
+    span.dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+    .content-section {
+        margin-top: 40px;
+    }
+
+    .travel-filter {
+        padding: 30px 0;
+    }
+
+    .travel-filter__info-btn {
+        position: relative;
+        right: 50px;
+    }
+
+    .travel-parameter__years-sub-heading,
+    .travel-parameter__fifty-sub-heading,
+    .travel-parameter__twenty-sub-heading {
+        margin: 0 70px 30px;
+    }
+
+    .travel-count {
+        height: 124px;
+    }
+
+    .travel-buy-tickets--active {
+        margin-top: 30px;
+    }
+    .footer-heading__sub-heading,
+    .footer-heading__heading {
+        text-align: center;
+        margin-left: 0;
+    }
+    input.form-input {
+        margin-right: 0;
+    }
+    .footer-input__btn {
+        width: 257px;
+        margin-top: 6px;
+    }
+    .main__footer {
+        height: 1179px;
+    }
+    .footer-copy-right {
+        height: 120px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+}
